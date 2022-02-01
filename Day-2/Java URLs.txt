@@ -1,0 +1,7 @@
+Java Download Urls:
+
+For 64-bit OS:
+https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.exe
+
+For 32-bit OS:
+https://www.oracle.com/java/technologies/javase/javase8u211-later-archive-downloads.html#license-lightbox

@@ -1,0 +1,7 @@
+read -p "Enter Your FirstName Here " firstname
+
+echo "Enter Your Lastname Here "
+read lastname
+
+
+echo "My Fullname Is $firstname$lastname"

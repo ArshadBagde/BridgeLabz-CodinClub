@@ -1,0 +1,22 @@
+
+echo "Enter Your Official Names In CodinClub"
+read officialName
+
+
+case $officialName in
+   Gunjan)
+      echo "$officialName Is a Practice-Lead In Codinclub"
+      ;;
+   Shreya)
+      echo "$officialName Is a HR In Codinclub"
+      ;;
+   Nandha)
+      echo "$officialName Is a Mentor In Codinclub"
+      ;;
+   Manoj)
+      echo "$officialName Is a Student In Codinclub"
+      ;;
+   *)
+     echo "Please Check Your Input It's Invalid :("
+     ;;
+esac

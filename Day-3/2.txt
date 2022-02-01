@@ -1,0 +1,11 @@
+for item in `ls *.java`
+do
+   nameOfFile=`echo $item | awk -F. '{ print $1 }'`
+   if [ -d $nameOfFile ]
+   then
+       echo "** This Is Inside IF-Block ***"
+       rm -rf $nameOfFile
+   fi
+   mkdir $nameOfFile
+   cp -r $item $nameOfFile
+done

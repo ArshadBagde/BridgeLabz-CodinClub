@@ -1,0 +1,4 @@
+declare -A cskTeam
+cskTeam  [bat]="ali"
+cskTeam  [bowl]="bravo"
+cskTeam  [captain]="dhoni"

@@ -1,0 +1,1 @@
+echo Hey Swapna How Are You ? | awk '{ $1="Yes" } { $3="I" } { $4="am" } { $5="Good" } { $6=":)" } { print $0 }'

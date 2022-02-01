@@ -1,0 +1,11 @@
+number=$((RANDOM%3))
+
+if [ $number -eq 2 ]
+then
+    echo "Nandha Present as full-time today"
+elif [ $number -eq 1 ]
+then
+    echo "Nandha Present as half-day today"
+else
+    echo "Nandha Is Absent"
+fi

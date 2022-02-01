@@ -1,0 +1,7 @@
+function fullname() {
+         echo "My Fullname Is : $1$2"
+         echo "My Age Is : $3"
+         echo "My Professional Is : $4"
+}
+
+fullname Nandha Kumar 25 engineer

@@ -1,0 +1,22 @@
+Jan 21
+Algorithm :-
+
+step 1 :-
+       List/filter Only Java Files
+       Expected Result: add.java sub.java mul.java div.java
+
+step 2 :-
+       Find a 'Name' of that Java Files
+       Expected Result: add.java ===> add
+                        sub.java ===> sub
+                        mul.java ===> mul
+                        div.java ===> div
+step 3 :-
+       Create a folder with same 'name' as file 'name'
+       Expected Result: add.java ===> add/
+                        sub.java ===> sub/
+                        mul.java ===> mul/
+                        div.java ===> div/
+
+step 4 :-
+       Copy a original File & paste into a specific folder

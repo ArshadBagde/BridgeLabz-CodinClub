@@ -1,0 +1,31 @@
+
+read -p "Enter Your Favourite Number here" number
+
+isFullTime=2
+isPartTime=1
+isJobless=0
+
+logHourPerDay=8
+perHourCost=100
+salary=0
+
+                case $number in
+                     $isFullTime)
+                     salary=$((logHourPerDay*perHourCost))
+                     echo "Nandha Joined As Full-Time Job"
+                     ;;
+                     $isPartTime)
+                     salary=$((logHourPerDay*perHourCost))
+                     salary=$((salary/2))
+                     echo "Nandha Joined As Part-Time Job"
+                     ;;
+                     $isJobless)
+                     echo "Nandha seems Jobless"
+                     ;;
+                     *)
+                     echo "Please Check Your Input It's Invalid :("
+                     ;;
+                esac
+
+
+echo "Income Is $salary"
